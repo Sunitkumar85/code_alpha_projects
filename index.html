@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunit Kumar Vishwakarma | Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website for Sunit Kumar Vishwakarma, a fresher B.Tech CSE graduate featuring projects, skills, resume, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="logo" aria-label="Sunit Kumar Vishwakarma home">S<span>KV</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-menu">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Hello, I’m</p>
+            <h1>Sunit Kumar <span>Vishwakarma</span></h1>
+            <h2>B.Tech CSE Graduate | Frontend Developer</h2>
+            <p class="lead">
+              I am a fresher CSE graduate passionate about creating responsive, user-friendly web
+              experiences using HTML, CSS, JavaScript, and modern frontend tools.
+            </p>
+            <div class="cta-group">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="resume.html">View Resume</a>
+            </div>
+            <ul class="hero-stats" aria-label="Career statistics">
+              <li><strong>2026</strong><span>Pass out year</span></li>
+              <li><strong>2+</strong><span>Projects built</span></li>
+              <li><strong>Fresher</strong><span>Career status</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="profile-card">
+              <div class="profile-badge">Available for work</div>
+              <div class="avatar-wrap">
+                <div class="avatar">SKV</div>
+              </div>
+              <div class="card-details">
+                <h3>Sunit Kumar Vishwakarma</h3>
+                <p>Frontend Developer</p>
+              </div>
+              <div class="mini-metrics">
+                <div>
+                  <strong>UI/UX</strong>
+                  <span>Design systems</span>
+                </div>
+                <div>
+                  <strong>Frontend</strong>
+                  <span>React & HTML/CSS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>Turning ideas into engaging digital experiences.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-copy reveal">
+              <p>
+                I am a B.Tech in Computer Science graduate with a strong interest in frontend
+                development, problem-solving, and building clean digital experiences. I enjoy
+                turning ideas into responsive, user-friendly web interfaces.
+              </p>
+              <p>
+                I have hands-on experience with HTML, CSS, JavaScript, and web design concepts,
+                and I am eager to apply my knowledge to real-world projects while continuing to
+                learn and grow as a developer.
+              </p>
+            </div>
+            <div class="about-panel reveal">
+              <div class="info-item">
+                <span>Location</span>
+                <strong>Prayagraj, Uttar Pradesh, India</strong>
+              </div>
+              <div class="info-item">
+                <span>Email</span>
+                <strong>sunitvishwakarma92@gmail.com</strong>
+              </div>
+              <div class="info-item">
+                <span>Education</span>
+                <strong>B.Tech in CSE, Passing Year 2026</strong>
+              </div>
+              <div class="info-item">
+                <span>Focus</span>
+                <strong>Responsive UI / Frontend Development</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools, technologies, and strengths I bring.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3>Design</h3>
+              <ul>
+                <li>Figma</li>
+                <li>Wireframing</li>
+                <li>Design Systems</li>
+                <li>UX Research</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5 / CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Responsive Design</li>
+              </ul>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Development</h3>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>REST APIs</li>
+                <li>Performance</li>
+                <li>Accessibility</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Projects I have built and learned from.</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-visual visual-one"></div>
+              <div class="project-content">
+                <span class="tag">Weather App</span>
+                <h3>Weather Forecast App</h3>
+                <p>
+                  A responsive weather dashboard that displays live weather data, search by city,
+                  and shows current conditions with a clean UI.
+                </p>
+                <div class="project-meta">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual visual-two"></div>
+              <div class="project-content">
+                <span class="tag">Calculator</span>
+                <h3>Simple Calculator</h3>
+                <p>
+                  A functional calculator application with arithmetic operations, clean layout,
+                  and user-friendly interaction for quick calculations.
+                </p>
+                <div class="project-meta">
+                  <span>JavaScript</span>
+                  <span>CSS</span>
+                  <span>UI Design</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual visual-three"></div>
+              <div class="project-content">
+                <span class="tag">Portfolio</span>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                  A modern personal portfolio to showcase skills, projects, contact details, and
+                  educational background in a professional layout.
+                </p>
+                <div class="project-meta">
+                  <span>Responsive</span>
+                  <span>Frontend</span>
+                  <span>Portfolio</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Resume</p>
+            <h2>Fresh graduate with a strong foundation in web technologies.</h2>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span>2022 — 2026</span>
+                <h3>B.Tech in Computer Science & Engineering</h3>
+                <p>Graduating in 2026 with a focus on software development, web technologies, and problem solving.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span>Frontend Skills</span>
+                <h3>Web Development Enthusiast</h3>
+                <p>Built projects using HTML, CSS, JavaScript, and responsive UI design principles.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span>Career Status</span>
+                <h3>Fresher</h3>
+                <p>Actively looking for opportunities to work on real-world development challenges and grow professionally.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-cta reveal">
+            <a class="btn btn-primary" href="resume.html">View Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something meaningful together.</h2>
+            <p>
+              I’m open to freelance projects, product collaborations, and full-time opportunities.
+            </p>
+            <ul class="contact-list">
+              <li>Email: sunitkumarvishwakarma@gmail.com</li>
+              <li>Phone: +91 8528829264</li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/8528829264-sunit-kumar-vishwakarma" target="_blank" rel="noreferrer">linkedin.com/in/8528829264-sunit-kumar-vishwakarma</a></li>
+            </ul>
+          </div>
+
+          <form class="contact-form reveal">
+            <div class="field-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" />
+            </div>
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Your email" />
+            </div>
+            <div class="field-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Sunit Kumar Vishwakarma. All rights reserved.</p>
+        <a href="#home" class="to-top" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

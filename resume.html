@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume | Sunit Kumar Vishwakarma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background: linear-gradient(180deg, #07111f 0%, #0a1628 100%);
+      }
+
+      .resume-page {
+        padding: 4rem 0;
+      }
+
+      .resume-card {
+        max-width: 900px;
+        margin: 0 auto;
+        background: rgba(15, 29, 45, 0.92);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 24px;
+        box-shadow: 0 18px 45px rgba(7, 17, 31, 0.45);
+        padding: 2rem;
+      }
+
+      .resume-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: flex-start;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .resume-header h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+        margin: 0;
+      }
+
+      .resume-header p {
+        margin-top: 0.5rem;
+      }
+
+      .resume-section {
+        margin-bottom: 1.7rem;
+      }
+
+      .resume-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .resume-list {
+        list-style: none;
+        display: grid;
+        gap: 0.7rem;
+        color: var(--muted);
+      }
+
+      .resume-actions {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      @media (max-width: 720px) {
+        .resume-header {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="index.html" class="logo" aria-label="Sunit Kumar Vishwakarma home">S<span>KV</span></a>
+        <div class="nav-menu">
+          <a href="index.html#about">About</a>
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="resume-page">
+      <div class="container">
+        <div class="resume-card">
+          <div class="resume-header">
+            <div>
+              <h1>Sunit Kumar Vishwakarma</h1>
+              <p>Frontend Developer | B.Tech in CSE (2026)</p>
+            </div>
+            <a class="btn btn-primary" href="mailto:sunitkumarvishwakarma@gmail.com">Email Me</a>
+          </div>
+
+          <section class="resume-section">
+            <h2>Profile</h2>
+            <p>
+              Fresher Computer Science graduate with a strong interest in frontend development,
+              responsive web design, and creating user-friendly digital experiences.
+            </p>
+          </section>
+
+          <section class="resume-section">
+            <h2>Education</h2>
+            <ul class="resume-list">
+              <li><strong>B.Tech in Computer Science & Engineering</strong> — 2022 to 2026</li>
+              <li>Focused on web development, UI design, programming fundamentals, and software engineering.</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h2>Skills</h2>
+            <ul class="resume-list">
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>Responsive Web Design</li>
+              <li>Frontend UI Development</li>
+              <li>Git & GitHub</li>
+              <li>Problem Solving and Debugging</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h2>Projects</h2>
+            <ul class="resume-list">
+              <li><strong>Weather App</strong> — Built a responsive weather website with search-by-city functionality.</li>
+              <li><strong>Calculator</strong> — Created a clean interactive calculator UI with core arithmetic functions.</li>
+              <li><strong>Portfolio Website</strong> — Designed and developed a personal portfolio with sections for skills, projects, and contact.</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h2>Contact</h2>
+            <ul class="resume-list">
+              <li>Location: Prayagraj, Uttar Pradesh, India</li>
+              <li>Email: sunitkumarvishwakarma@gmail.com</li>
+              <li>Phone: +91 8528829264</li>
+              <li>LinkedIn: linkedin.com/in/8528829264-sunit-kumar-vishwakarma</li>
+            </ul>
+          </section>
+
+          <div class="resume-actions">
+            <a class="btn btn-secondary" href="index.html">Back to Portfolio</a>
+            <a class="btn btn-primary" href="mailto:sunitkumarvishwakarma@gmail.com">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
